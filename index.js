@@ -5,3 +5,9 @@ function findMatching(drivers, name){
   return drivers.filter(function (driverName) { return driverName.toUpperCase() === name.toUpperCase();});
   
 }
+
+function fuzzyMatch(drivers, name){
+  
+  return drivers.filter(function)
+  
+}
